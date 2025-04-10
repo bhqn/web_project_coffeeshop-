@@ -61,10 +61,16 @@
 }
 
 .header__image {
+  display: flex;
   width: 646px;
   height: 568px;
+    align-self: flex-end;
+    position: absolute;
+    top: 124px;
+
+ 
 }
-.header__image__background {
+.header__background {
   width: auto;
   height: 100%;
   top: 0;
@@ -112,35 +118,42 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  margin-bottom: 40px;
   margin-left: 80px;
   margin-right: 80px;
+  margin-bottom: 40px;
+  margin-top: 300px;
 }
 
-.Header__list__horarios {
-  list-style-type: none;
-  padding-left: 0;
+.header__paragraph{
+font-family: "Inter";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+ color: #838383;
+margin: 0
+  
 }
 
-.recipe {
-  background: #0a2850 url("/images/background_recipes.svg");
-  background-size: cover; /* ou contain, dependendo do efeito desejado */
+.recipes {
+  background: #0a2850 url("/web_project_coffeeshop--main/images/background_recipes.svg");
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
   color: #fff;
 }
 
-.recipe__videos {
+.recipes__videos {
   display: flex;
   justify-content: center;
 }
 
-.reciple__video-item__one {
+.recipes__primary {
   margin-right: 40px;
 }
 
-.recipe__title {
+.recipes__title {
   padding-top: 100px;
   font-family: "Inter";
   font-style: normal;
@@ -152,7 +165,7 @@
   margin-left: 80px;
 }
 
-.recipe__subtitle {
+.recipes__subtitle {
   margin-top: 24px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -163,18 +176,18 @@
   margin-bottom: 80px;
 }
 
-.reciple__video-item {
+.recipes__wrap {
   display: flex;
   margin-bottom: 215px;
 }
 
-.reciple__video-iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   border: none;
 }
 
-.video__caption {
+.recipes__caption {
   display: flex;
   justify-content: space-between;
 }

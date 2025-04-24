@@ -42,8 +42,6 @@
             <li class="nav__link"><a>Contatos</a></li>
           </ul>
         </nav>
-
-        
           <h1 class="header__title header__title-blue">
             <span class="span-accent">Café especial</span>
           </h1>
@@ -52,15 +50,11 @@
             Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
             você e vibrações aconchegantes para soltar a criatividade.
           </p>
-  
-
           <img
             src="images/inside_coffee_shop.png"
             class="header__image"
             alt="imagem do topo da cafeteria"
           />
-     
-       
         <img
           src="./images/background_header.svg"
           alt="Background Header"
@@ -119,7 +113,44 @@
             </div>
           </div>
         </section>
-        <section id= "reservation" class="reservation"></section>
+        <section id= "reservation" class="reservation">
+      
+         
+        <h2 class="reservation__title">Reservar uma mesa</h2>
+          <form class="reservation__form form">
+            <fieldset class="reservation__fieldset">
+          <label class="reservation__label">
+            Nome:
+            <br>
+            <input type="text" placeholder="nome" class="reservation__input" >
+          </label>
+          <br>
+          <label class="reservation__label">
+            Numero de convidados:
+            <br>
+            <input type="number" placeholder="1-8" class="reservation__input"  >
+          </label>
+          <br>
+          <label class="reservation__label">
+            Data e hora:
+            <br>
+            <input type="datetime-local" class="reservation__input"  >
+          </label>
+          <br>
+          <label class="reservation__label">
+            Seu e-mail:
+            <br>
+            <input type="email" placeholder="email@email.com" class="reservation__input" >
+          </label>
+          <br>
+          <button class="reservation__button">Reservar uma mesa</button>
+          <br>
+          <input type="checkbox" class="reservation__checkbox">
+          <label>Eu concordo com os termos de uso</label>
+        </fieldset>
+        </form>
+      
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>

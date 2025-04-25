@@ -1,0 +1,109 @@
+.reservation{
+    background: #D9E7FF url("/web_project_coffeeshop--main/images/background_reservation.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding-top:100px;
+    padding-bottom: 120px;
+  
+    
+  }
+  .reservation__title{
+    margin-top: 0;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    padding: 0;
+  }
+  
+  .reservation__fieldset{
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  max-width: 385px;
+  }
+  
+  .reservation__label{
+    font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   width: 100%;
+   
+  }
+  
+  
+  .reservation__form{
+  margin: 0 auto;
+   
+  }
+
+  .reservation__input{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 32px;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 60px;
+    
+    
+  }
+  
+  
+  .reservation__input::placeholder{
+  color:#838383;
+  margin-left: 20px;
+    
+  }
+  
+  
+  
+  .reservation__button{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color:white;
+    background-color: #2f80ed;
+    outline: none;
+    border: none;
+    margin-bottom: 32px;
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    border-radius: 4px;
+    max-width: 385px;
+  }
+  
+  .reservation__button:hover{
+    opacity: 70%
+  }
+  
+  
+  
+  
+  .reservation__checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }

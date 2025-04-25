@@ -1,0 +1,58 @@
+
+.recipes {
+    background: #0a2850 url("/web_project_coffeeshop--main/images/background_recipes.svg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #fff;
+  }
+  
+  .recipes__videos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .recipes__primary {
+    margin-right: 40px;
+  }
+  
+  .recipes__title {
+    padding-top: 100px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 80px;
+  }
+  
+  .recipes__subtitle {
+    margin-top: 24px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .recipes__wrap {
+    display: flex;
+    margin-bottom: 215px;
+  }
+  
+  .recipes__iframe {
+    width: 480px;
+    height: 273px;
+    border: none;
+  }
+  
+  .recipes__caption {
+    display: flex;
+    justify-content: space-between;
+  }
+  

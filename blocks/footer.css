@@ -1,0 +1,92 @@
+.footer{
+    position: relative;
+    
+    padding-top: 60px;
+    background-color: #0A2850;
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+    color: white;
+    overflow: hidden;
+   
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 108px;
+    
+}
+
+
+.footer__logo{
+    position: relative;
+    z-index: 1;
+    width: 105px;
+    height: 39px;
+}
+
+.footer__social-title{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.footer__social-link{
+    list-style: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    
+    
+}
+
+.footer__social-logo{
+    width: 16px;
+    margin-right:10px ;
+    
+    
+}
+
+.footer__social-text{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer__social-text:hover{
+    color: #C1C1C1;
+    text-decoration: none;
+}
+
+
+
+.footer__circle{
+    top:-128px;
+    left: -44px;
+    position: absolute;
+    background-color:#2F80ED;
+    width: 340px;
+    height: 340px;
+    border-radius: 100%;
+    
+}
+
+.footer__copyright{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px
+}
+

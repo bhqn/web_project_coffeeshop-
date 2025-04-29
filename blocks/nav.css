@@ -26,3 +26,11 @@
     font-family: "Noto Serif";
     
   }
+
+
+  .nav__link-text{
+    text-decoration: none;
+    color: inherit;
+
+
+  }

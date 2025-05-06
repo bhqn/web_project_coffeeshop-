@@ -23,7 +23,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    font-family: "Noto Serif";
+   
     
   }
 
@@ -32,5 +32,10 @@
     text-decoration: none;
     color: inherit;
 
+
+  }
+
+  .nav__link-text:hover{
+    color: #2F80ED;
 
   }

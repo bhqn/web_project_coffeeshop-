@@ -39,6 +39,7 @@
 }
 
 .footer__social-link{
+    
     list-style: none;
     font-family: "Inter";
     font-style: normal;
@@ -52,12 +53,15 @@
 
 .footer__social-logo{
     width: 16px;
-    margin-right:10px ;
+   
     
     
 }
 
 .footer__social-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: white;
     text-decoration: none;
 }
@@ -65,8 +69,15 @@
 
 
 .footer__social-text:hover{
-    color: #C1C1C1;
-    text-decoration: none;
+    color:#C1C1C1;
+    
+
+}
+
+.footer__social-text:focus{
+    color:#C1C1C1;
+    
+    
 }
 
 
